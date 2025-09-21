@@ -1,5 +1,5 @@
 gemini:
-  api_key: "AIzaSyCYILtnAep9LqpPv2Aj-Gfdb5OEa82pD7k"
+  api_key: "\"
   model: "models/gemini-1.5-pro-latest"
   temperature: 0.05
   max_output_tokens: 1024
@@ -24,3 +24,4 @@ allowed_commands:
   - history
   - exit
   - quit
+
