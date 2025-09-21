@@ -1,0 +1,6 @@
+echo "hbeoivbeoivbdeicnsaiducnaipudbefrrtbrtb"
+make two new folders data and output
+help
+# NL: make folder test
+mkdir test
+echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

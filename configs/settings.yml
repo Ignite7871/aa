@@ -1,0 +1,26 @@
+gemini:
+  api_key: "AIzaSyCYILtnAep9LqpPv2Aj-Gfdb5OEa82pD7k"
+  model: "models/gemini-1.5-pro-latest"
+  temperature: 0.05
+  max_output_tokens: 1024
+
+allowed_commands:
+  - help
+  - pwd
+  - ls
+  - cd
+  - mkdir
+  - rm
+  - touch
+  - cat
+  - echo
+  - cp
+  - mv
+  - head
+  - tail
+  - ps
+  - sysmon
+  - df
+  - history
+  - exit
+  - quit
