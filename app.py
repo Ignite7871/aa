@@ -11,7 +11,7 @@ from parser import nl_to_commands
 from executer import run_commands
 from history import append_history, load_last
 
-st.set_page_config(page_title="CodeMate Terminal", page_icon="💻", layout="wide")
+st.set_page_config(page_title="Terminal", page_icon="💻", layout="wide")
 ROOT = Path(__file__).parent.resolve()
 
 # ---------- Session bootstrap ----------
@@ -58,7 +58,7 @@ st.markdown(
 left, right = st.columns([3, 1], gap="large")
 
 with left:
-    st.markdown("#### CodeMate Terminal")
+    st.markdown("#### Terminal")
     # feed
     feed_container = st.container()
     with feed_container:
@@ -151,3 +151,4 @@ with right:
     st.markdown("#### Recent History")
     for line in load_last(15):
         st.code(line, language="bash")
+
